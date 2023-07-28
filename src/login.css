@@ -1,0 +1,98 @@
+/* Login.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.checkboxes {
+  font-size: 10px;
+  margin-left: 20%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.mini-checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 5px;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.mini-checkbox.valid {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.eye-icon {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.left-margin {
+  margin-left: 20%;
+  text-align: left;
+}
